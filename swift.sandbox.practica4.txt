@@ -1,0 +1,28 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+func mandarMensaje(){
+	print("Hola Mundo")
+}
+
+mandarMensaje()
+func devuelveValor() -> Int{
+	return 10
+}
+let iVal = devuelveValor()
+print(iVal)
+func mandarMensaje2(mensaje:String){
+	print(mensaje)
+}
+mandarMensaje2(mensaje: "Hola Mundo cruel")
+
+func mandarMensaje3(_ mensaje:String){
+  print(mensaje)
+}
+mandarMensaje3("Hello World")
+func mandarMensaje4(introduceTuMensaje mensaje:String){
+	print(mensaje)
+}
+mandarMensaje4(introduceTuMensaje: "Uso de alias")
+
+//http://swift.sandbox.bluemix.net/#/repl/58ac7843e96e9c3fb090012e

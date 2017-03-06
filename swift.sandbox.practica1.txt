@@ -1,0 +1,20 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+var sCade: String
+sCade = "Hola Mundo prros!!"
+var sCade2 = "Hola"
+let miConstante: Int = 5
+print(miConstante)
+print(sCade)
+print(sCade2)
+var iVal = 100
+var dValDob = 5.5
+print("la suma es = \(Double(iVal)+dValDob)")
+var sNom = "Rolando Nuñez Dominguez"
+print("Mi nombre \(sNom)")
+var sCon = "Hola"
+sCon += " "
+sCon += "Mundo"
+print(sCon)
+
+//http://swift.sandbox.bluemix.net/#/repl/58ac7dd7e96e9c3fb090014c

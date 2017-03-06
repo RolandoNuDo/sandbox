@@ -1,0 +1,28 @@
+class MiClase{
+	init(){
+		print("constructor sin argumentos")
+	}
+	func mandarMensaje(_ mensaje:String){
+			print(mensaje)
+	}
+
+}
+
+let mcObj = MiClase()
+mcObj.mandarMensaje("Hola Compadres")
+
+class MiOtraClase: MiClase{
+	
+}
+let mocObjeto = MiOtraClase();
+mocObjeto.mandarMensaje("Otro Hola Compas")
+
+class MiOtraClase2: MiClase{
+	override init(){
+		print("Otro Initializer")
+		
+	}
+}
+let mocObjeto2 = MiOtraClase()
+
+//http://swift.sandbox.bluemix.net/#/repl/58ac7b03e96e9c3fb0900132

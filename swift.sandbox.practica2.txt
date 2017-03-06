@@ -1,0 +1,12 @@
+var sCade: String?
+sCade = nil
+sCade = "Hola Mundo"
+print(sCade!)
+var iVal: Int?
+iVal = nil
+var sCade2: String!
+sCade2 = nil
+sCade2 = "QUIBO"
+print(sCade2)
+
+//http://swift.sandbox.bluemix.net/#/repl/58ac7df6e96e9c3fb090014f
